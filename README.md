@@ -1,24 +1,24 @@
 # VME Bus System – Verilog Implementation on Vivado
 
-This project presents the **Design and Verification** of a **Versa Module Europa (VME) bus system** using **Verilog HDL** on **Xilinx Vivado 2018.3**. It demonstrates a modular and scalable communication framework capable of handling **multi-master and multi-slave architectures** with a centralized arbiter and efficient memory-mapped data transfers.
+This project presents the **Design, Development and Verification** of a **Versa Module Europa (VME) bus** using **Verilog HDL** on **Xilinx Vivado 2018.3**. It demonstrates a modular and scalable communication framework capable of handling **multi-master and multi-slave architectures** with a centralized arbiter and efficient memory-mapped data transfers.
 
 ---
 
 ## 🔧 What I Built
 
-- ✅ **Master Module**  
+- **Master Module**  
   Initiates bus requests, performs read/write operations, and handles control signaling in compliance with VME protocol.
 
-- ✅ **Slave Module**  
+- **Slave Module**  
   Responds to requests from master(s), manages memory transactions, and handles acknowledgment or error signaling.
 
-- ✅ **Arbiter Module**  
+- **Arbiter Module**  
   Regulates access to the shared bus using three arbitration schemes:
   - Round-Robin Arbitration  
   - Priority-Based Arbitration  
   - Single Priority Arbitration
 
-- ✅ **Integrated Bus Architecture**  
+- **Integrated Bus Architecture**  
   Supports real-time communication through structured handshaking, memory mapping, and control signal coordination across all modules.
 
 ---
@@ -44,11 +44,11 @@ This project presents the **Design and Verification** of a **Versa Module Europa
 
 ## 🧪 Project Results
 
-- 🔄 Successfully implemented **bus arbitration schemes** ensuring fairness and efficiency in multi-master environments.
-- 📈 **Arbitration Simulation** verified correctness and behavior of the FSM-based controller logic.
-- ✅ **Read/Write operations** completed without data contention or corruption using handshaking protocols.
-- ⌛ **Latency and bus utilization** measured and optimized, confirming performance under realistic conditions.
-- 📋 Verified memory transfer consistency via preloaded files in both master and slave modules.
+- Successfully implemented **bus arbitration schemes** ensuring fairness and efficiency in multi-master environments.
+- **Arbitration Simulation** verified correctness and behavior of the FSM-based controller logic.
+- **Read/Write operations** completed without data contention or corruption using handshaking protocols.
+- **Latency and bus utilization** measured and optimized, confirming performance under realistic conditions.
+- Verified memory transfer consistency via preloaded files in both master and slave modules.
 
 ---
 
